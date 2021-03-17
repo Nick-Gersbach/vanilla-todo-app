@@ -1,0 +1,111 @@
+/* Colors
+
+Blue (Add Task Button) - #5CA8E0
+Green (check marks) - #34D6B1
+background (header) - #FDFDFE
+background (body) - #F0F2F5
+
+
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#5FBDF7, #50A5F2, #4494F0, #3B87EE);
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+    margin-top: 100px;
+}
+
+header {
+    background: #f0f2f5;;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+.main-title {
+    cursor: pointer;
+}
+
+header h4 {
+    font-size: 12px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+input {
+    border: none;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border-radius: 6px;
+}
+
+#new-task-btn {
+    background: #5CA8E0;
+    color: white;
+    margin-left: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    outline: none;
+}
+
+h3 {
+    padding-top: 50px;
+}
+
+h2 {
+    padding: 50px 25px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 50px;
+}
+
+li {
+    padding: 1rem;
+    background: white;
+    max-width: 100%;
+}
+
+
+
+.fa-remove {
+    color: red;
+    cursor: pointer;
+}
+
+.clear-tasks {
+    padding: 1rem 2rem;
+    background: #5CA8E0;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+}

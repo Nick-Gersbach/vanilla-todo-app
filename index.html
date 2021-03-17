@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/293abf4b96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Vanilla ToDo App</title>
+</head>
+<body>
+    <div class="container">
+<header>
+ <h1 class="main-title">Todo Time</h1>
+ <h4>Getting Stuff Done Since 2002</h4>
+</header>
+
+    <form id="task-form">
+        <input type="text" name="task" id="task" placeholder="Add Task">
+        <input type="submit" value="+" class="add-task-btn" id="new-task-btn">
+    </form>
+    <h2 class="task-list-title">Tasks</h2>
+    <input type="text" name="filter" id="filter" placeholder="Filter Tasks">
+    <ul class="ul-task-list"></ul>
+    <a href="#" class="clear-tasks">Clear Tasks</a>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
